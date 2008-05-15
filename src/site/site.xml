@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="issue tracker stats">
+  <skin>
+    <groupId>org.jvnet.maven-javanet-skin</groupId>
+    <artifactId>maven-javanet-skin</artifactId>
+    <version>1.0</version>
+  </skin>
+
+  <body>
+   <menu name="Overview">
+      <item name="Home"                   href="/index.html"/>
+      <item name="Download"               href="http://download.java.net/maven/2/org/kohsuke/trilead-putty-extension/"/>
+      <item name="Issue tracker"          href="/issues/"/>
+      <item name="Source code"            href="/source/browse/trilead-putty-extension/" />
+      <item name="Mailing lists"          href="/servlets/ProjectMailingListList" />
+    </menu>
+    ${reports}
+  </body>
+</project>
