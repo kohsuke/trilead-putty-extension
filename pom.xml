@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.kohsuke</groupId>
   <artifactId>trilead-putty-extension</artifactId>
-  <version>1.0</version>
+  <version>1.1-SNAPSHOT</version>
   <name>PuTTY support for Trilead SSH2 library</name>
 
   <build>
@@ -45,8 +45,8 @@
   </dependencies>
 
   <scm>
-    <connection>scm:svn:https://svn.dev.java.net/svn/trilead-putty-extension/tags/trilead-putty-extension-1.0</connection>
-    <developerConnection>scm:svn:https://svn.dev.java.net/svn/trilead-putty-extension/tags/trilead-putty-extension-1.0</developerConnection>
+    <connection>scm:svn:https://svn.dev.java.net/svn/trilead-putty-extension/trunk/trilead-putty-extension/</connection>
+    <developerConnection>scm:svn:https://svn.dev.java.net/svn/trilead-putty-extension/trunk/trilead-putty-extension/</developerConnection>
   </scm>
 
   <distributionManagement>
