@@ -16,6 +16,13 @@
         </configuration>
       </plugin>
     </plugins>
+    <extensions>
+      <extension>
+        <groupId>org.jvnet.wagon-svn</groupId>
+        <artifactId>wagon-svn</artifactId>
+        <version>1.8</version>
+      </extension>
+    </extensions>
   </build>
 
   <dependencies>
@@ -37,4 +44,21 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <scm>
+    <connection>scm:svn:https://svn.dev.java.net/svn/trilead-putty-extension/trunk/trilead-putty-extension/</connection>
+    <developerConnection>scm:svn:https://svn.dev.java.net/svn/trilead-putty-extension/trunk/trilead-putty-extension/</developerConnection>
+  </scm>
+
+  <distributionManagement>
+    <site>
+      <id>trilead-putty-extension-www</id>
+      <url>java-net:/trilead-putty-extension/trunk/www/</url>
+    </site>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>java.net-maven2-repository</id>
+      <url>java-net:/maven2-repository/trunk/www/repository/</url>
+    </repository>
+  </distributionManagement>
 </project>
