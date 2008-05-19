@@ -1,0 +1,13 @@
+What is this?
+
+    This is a small library that allows you to programatically convert
+    the PuTTY key file (.ppk) to the OpenSSH format.
+
+    Such a conversion relies on a few cryptographic operations that
+    are not available out of the box from JDK, so this library
+    depends on {{{http://www.trilead.com/Products/Trilead-SSH-2-Java/}the trilead Java SSH2 library}}
+    for those algorithms (but if you prefer to use this with other toolkits,
+    you should be able to easily port this library.)
+
+
+    See {{{/nonav/apidocs/}javadoc}} for more details.

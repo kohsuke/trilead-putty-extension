@@ -49,6 +49,14 @@
     <developerConnection>scm:svn:https://svn.dev.java.net/svn/trilead-putty-extension/trunk/trilead-putty-extension/</developerConnection>
   </scm>
 
+  <reporting>
+    <plugins>
+      <plugin>
+        <artifactId>maven-javadoc-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </reporting>
+
   <distributionManagement>
     <site>
       <id>trilead-putty-extension-www</id>

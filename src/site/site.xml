@@ -11,6 +11,7 @@
       <item name="Home"                   href="/index.html"/>
       <item name="Download"               href="http://download.java.net/maven/2/org/kohsuke/trilead-putty-extension/"/>
       <item name="Issue tracker"          href="/issues/"/>
+       <item name="Javadoc"               href="/nonav/apidocs/" />
       <item name="Source code"            href="/source/browse/trilead-putty-extension/" />
       <item name="Mailing lists"          href="/servlets/ProjectMailingListList" />
     </menu>
