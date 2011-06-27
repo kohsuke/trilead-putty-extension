@@ -7,7 +7,7 @@
   </parent>
 
   <artifactId>trilead-putty-extension</artifactId>
-  <version>1.1</version>
+  <version>1.2-SNAPSHOT</version>
   <name>PuTTY support for Trilead SSH2 library</name>
   <description>Loads SSH key in the PuTTY format</description>
   <url>http://${project.artifactId}.kohsuke.org/</url>
