@@ -3,7 +3,7 @@
   <parent>
     <groupId>org.kohsuke</groupId>
     <artifactId>pom</artifactId>
-    <version>1</version>
+    <version>3</version>
   </parent>
 
   <artifactId>trilead-putty-extension</artifactId>
@@ -20,9 +20,9 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.jvnet.hudson</groupId>
+      <groupId>org.jenkins-ci</groupId>
       <artifactId>trilead-ssh2</artifactId>
-      <version>build212-hudson-1</version>
+      <version>build214-jenkins-1</version>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
